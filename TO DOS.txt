@@ -1,0 +1,15 @@
+TO DOS
+
+1- Include nas paginas de sessao
+2- Criar banco de dados
+
+
+
+
+
+
+
+Quais sao os usuarios
+
+1- Operador (Lucas)
+2- Cliente Adm
