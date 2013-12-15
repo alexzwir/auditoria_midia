@@ -1,0 +1,13 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	width:100%;
+}
+
+#pai{
+	width: 70%;
+	margin: 0 auto;
+}

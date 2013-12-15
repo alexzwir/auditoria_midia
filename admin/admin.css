@@ -1,0 +1,215 @@
+body,textarea{
+    font-family: Arial;
+    color: #333;
+    font-size: 14px;
+    background-attachment: fixed !important;
+    background-image: url("../images/bg.jpg") !important;
+    background-position: center top !important;
+    background-repeat: repeat !important;
+    margin: 0;
+    padding: 0;
+}
+#content{
+    margin: 0 auto;
+    width: 250px;
+    padding: 0;
+    margin-top: 100px;
+    border: 1px dashed #666;
+    height: 150px;
+    padding: 20px;
+    background: #000;
+    color: #FFF;
+    font-family:'AmericanTypwrterITCW02- 737076';
+}
+#content.lista{
+    width: 1170px;
+    margin-top: 20px;
+    height: auto;
+    text-align: center;
+}
+#content.lista table td{
+    border: 1px dashed #ddd;
+    height: 25px;
+    background: #FFF;
+    vertical-align: middle;
+    font-family:'Arial';
+    color: #000000;
+}
+#content.lista table td strong{
+    font-weight: bold;
+}
+#content.lista a{
+    margin-right: 5px;
+    text-decoration: none;
+    color: #333;
+    vertical-align: middle;
+    position: relative;
+}
+
+#content1{
+
+    margin: 0 auto;
+    width: 250px;
+    padding: 0;
+    margin-top: 50px;
+    border: 1px dashed #666;
+    height: 150px;
+    padding: 20px;
+    background: #000;
+    color: #FFF;
+    font-family:'AmericanTypwrterITCW02- 737076';
+}
+#content1.lista{
+    width: 1040px;
+    margin-top: 20px;
+    height: auto;
+    text-align: center;
+}
+#content1.lista table td{
+    border: 1px dashed #ddd;
+    height: 25px;
+    background: #FFF;
+    vertical-align: middle;
+    font-family:'Arial';
+    color: #000000;
+}
+#content1.lista table td strong{
+    font-weight: bold;
+}
+#content1.lista a{
+    margin-right: 5px;
+    text-decoration: none;
+    color: #333;
+    vertical-align: middle;
+    position: relative;
+}
+form p{
+    height: 40px;
+    text-align: center;
+}
+form p.title, #content.lista h2{
+    font-family:'AmericanTypwrterITCW02- 737076';
+    font-size: 26px;
+    margin-bottom: 10px;
+    margin-top: -12px;
+}
+
+form p.title, #content1.lista h2{
+    font-family:'AmericanTypwrterITCW02- 737076';
+    font-size: 26px;
+    margin-bottom: 10px;
+    margin-top: -12px;
+}
+
+#content.lista h2{
+    text-align: left;
+}
+
+#content1.lista h2{
+    text-align: left;
+}
+
+input, textarea{
+    border: 1px solid #ccc;
+    height: 30px;
+}
+
+#login{
+    margin-left: 5px;
+}
+
+#content.lista p.title{
+    float: right;
+    margin-bottom: 5px;
+}
+#content #lista.formulario input[type=text], #content #lista.formulario textarea{
+    width: 500px;
+}
+#content #lista.formulario td{
+    text-align: left;
+    padding: 5px 15px;
+    height: 30px;
+}
+#content #lista.formulario td span{
+    width: 50px;
+    height: 50px;
+    display: block;
+    border: 1px solid #ccc;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+#content #lista.formulario td span.delete{
+    height: 16px;
+    width: 16px;
+    background: url(delete.png) transparent 0 0 no-repeat;
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-indent: -9999px;
+    cursor: pointer;
+    border: 0;
+}
+
+#content1.lista p.title{
+    float: right;
+    margin-bottom: 5px;
+}
+#content1 #lista.formulario input[type=text], #content #lista.formulario textarea{
+    width: 500px;
+}
+#content1 #lista.formulario td{
+    text-align: left;
+    padding: 5px 15px;
+    height: 30px;
+}
+#content1 #lista.formulario td span{
+    width: 50px;
+    height: 50px;
+    display: block;
+    border: 1px solid #ccc;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+#content1 #lista.formulario td span.delete{
+    height: 16px;
+    width: 16px;
+    background: url(delete.png) transparent 0 0 no-repeat;
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-indent: -9999px;
+    cursor: pointer;
+    border: 0;
+}
+textarea{
+    height: 70px;
+}
+
+.enviar{
+	background: none no-repeat scroll 0 0 #000;
+	height: 32px;
+    width: 90px;
+	border:none !important;
+    cursor: pointer;
+}
+
+.enviar1{
+    background: none no-repeat scroll 0 0 #000;
+    height: 32px;
+    width: 90px;
+    border:none !important;
+    cursor: pointer;
+    color: #FFF;
+    font-style: bold;
+}
+
+.bottom{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
