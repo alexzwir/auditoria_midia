@@ -11,3 +11,22 @@ body{
 	width: 70%;
 	margin: 0 auto;
 }
+
+
+/* Página que lista todos os cadastros */
+
+table{
+	border: 1px;
+	border-radius: 5px;
+	table-layout: fixed;
+}
+
+thead {
+	color:black;
+	background-color: grey;
+}
+
+tbody{
+	color:black;
+	background-color: yellow
+}

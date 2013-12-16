@@ -1,25 +1,10 @@
 <?php
-  $servidor = "iguatemibusinesssjrp.com.br";
-  $database = "ibjrp";
-  $usuario = "ibjrp";
-  $senha = "n2y767GWd";
-	mysql_connect($servidor,$usuario,$senha);
-	mysql_select_db($database);
+  include "config/config.php";
+
+
 ?>
 
 
-
-
-<?php
-
-session_start();
-
-if(!$_SESSION['usuario_id']){
-  header("location:index.php");
-  exit;
-}
-
-?>
 
 
 <html>
@@ -30,12 +15,12 @@ if(!$_SESSION['usuario_id']){
 <body>
 
 
-	<h1>Sem bem vindo:<?php echo $_SESSION['usuario_id'];?> </h1>
+	<h1>Sem bem vindo: Usuario -- colocar o nome do usaurio padrao</h1>
 
 
 	<ul>
 		<a href="#"><li>Home</li></a>
-		<a href=""><li>Dashboard</li></a>
+		<a href="dashboard.php"><li>Dashboard</li></a>
 		<a href="lista.php"><li>Lista de Contados</li></a>
 		<a href="logout.php"><li>Logout</li></a>
 
